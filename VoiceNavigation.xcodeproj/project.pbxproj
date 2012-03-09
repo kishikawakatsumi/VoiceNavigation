@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14142067150A865D00E5216F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14142066150A865D00E5216F /* QuartzCore.framework */; };
+		1414206B150A979500E5216F /* microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 14142069150A979500E5216F /* microphone.png */; };
+		1414206C150A979600E5216F /* microphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1414206A150A979500E5216F /* microphone@2x.png */; };
+		145CF6C5150AA0C20080E7CB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 145CF6C3150AA0C20080E7CB /* Icon.png */; };
+		145CF6C6150AA0C20080E7CB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 145CF6C4150AA0C20080E7CB /* Icon@2x.png */; };
+		145CF6CC150AA2320080E7CB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 145CF6CA150AA2320080E7CB /* Default.png */; };
+		145CF6CD150AA2320080E7CB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 145CF6CB150AA2320080E7CB /* Default@2x.png */; };
 		149E89F1150A45AA00AB1E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149E89F0150A45AA00AB1E10 /* UIKit.framework */; };
 		149E89F3150A45AA00AB1E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149E89F2150A45AA00AB1E10 /* Foundation.framework */; };
 		149E89F5150A45AA00AB1E10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149E89F4150A45AA00AB1E10 /* CoreGraphics.framework */; };
@@ -16,23 +23,33 @@
 		149E8A04150A45AB00AB1E10 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149E8A02150A45AB00AB1E10 /* MainStoryboard_iPhone.storyboard */; };
 		149E8A07150A45AB00AB1E10 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149E8A05150A45AB00AB1E10 /* MainStoryboard_iPad.storyboard */; };
 		149E8A0A150A45AB00AB1E10 /* VNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149E8A09150A45AB00AB1E10 /* VNViewController.m */; };
+		14DD86DF150A7197003098B3 /* VNTextInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DD86DE150A7197003098B3 /* VNTextInputView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14142066150A865D00E5216F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		14142069150A979500E5216F /* microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microphone.png; sourceTree = "<group>"; };
+		1414206A150A979500E5216F /* microphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "microphone@2x.png"; sourceTree = "<group>"; };
+		145CF6C3150AA0C20080E7CB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		145CF6C4150AA0C20080E7CB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		145CF6CA150AA2320080E7CB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		145CF6CB150AA2320080E7CB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		149E89EC150A45AA00AB1E10 /* VoiceNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		149E89F0150A45AA00AB1E10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		149E89F2150A45AA00AB1E10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		149E89F4150A45AA00AB1E10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		149E89F8150A45AB00AB1E10 /* VoiceNavigation-Info.plist */ = {isa = PBXFileReference; path = "VoiceNavigation-Info.plist"; sourceTree = "<group>"; };
+		149E89F8150A45AB00AB1E10 /* VoiceNavigation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoiceNavigation-Info.plist"; sourceTree = "<group>"; };
 		149E89FA150A45AB00AB1E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		149E89FC150A45AB00AB1E10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		149E89FE150A45AB00AB1E10 /* VoiceNavigation-Prefix.pch */ = {isa = PBXFileReference; path = "VoiceNavigation-Prefix.pch"; sourceTree = "<group>"; };
-		149E89FF150A45AB00AB1E10 /* VNAppDelegate.h */ = {isa = PBXFileReference; path = VNAppDelegate.h; sourceTree = "<group>"; };
+		149E89FE150A45AB00AB1E10 /* VoiceNavigation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoiceNavigation-Prefix.pch"; sourceTree = "<group>"; };
+		149E89FF150A45AB00AB1E10 /* VNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNAppDelegate.h; sourceTree = "<group>"; };
 		149E8A00150A45AB00AB1E10 /* VNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNAppDelegate.m; sourceTree = "<group>"; };
 		149E8A03150A45AB00AB1E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		149E8A06150A45AB00AB1E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		149E8A08150A45AB00AB1E10 /* VNViewController.h */ = {isa = PBXFileReference; path = VNViewController.h; sourceTree = "<group>"; };
+		149E8A08150A45AB00AB1E10 /* VNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNViewController.h; sourceTree = "<group>"; };
 		149E8A09150A45AB00AB1E10 /* VNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNViewController.m; sourceTree = "<group>"; };
+		14DD86DD150A7197003098B3 /* VNTextInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNTextInputView.h; sourceTree = "<group>"; };
+		14DD86DE150A7197003098B3 /* VNTextInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNTextInputView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,12 +60,26 @@
 				149E89F1150A45AA00AB1E10 /* UIKit.framework in Frameworks */,
 				149E89F3150A45AA00AB1E10 /* Foundation.framework in Frameworks */,
 				149E89F5150A45AA00AB1E10 /* CoreGraphics.framework in Frameworks */,
+				14142067150A865D00E5216F /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1414206D150A979C00E5216F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				145CF6CA150AA2320080E7CB /* Default.png */,
+				145CF6CB150AA2320080E7CB /* Default@2x.png */,
+				145CF6C3150AA0C20080E7CB /* Icon.png */,
+				145CF6C4150AA0C20080E7CB /* Icon@2x.png */,
+				14142069150A979500E5216F /* microphone.png */,
+				1414206A150A979500E5216F /* microphone@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		149E89E1150A45A900AB1E10 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +103,7 @@
 				149E89F0150A45AA00AB1E10 /* UIKit.framework */,
 				149E89F2150A45AA00AB1E10 /* Foundation.framework */,
 				149E89F4150A45AA00AB1E10 /* CoreGraphics.framework */,
+				14142066150A865D00E5216F /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -85,6 +117,9 @@
 				149E8A05150A45AB00AB1E10 /* MainStoryboard_iPad.storyboard */,
 				149E8A08150A45AB00AB1E10 /* VNViewController.h */,
 				149E8A09150A45AB00AB1E10 /* VNViewController.m */,
+				14DD86DD150A7197003098B3 /* VNTextInputView.h */,
+				14DD86DE150A7197003098B3 /* VNTextInputView.m */,
+				1414206D150A979C00E5216F /* Images */,
 				149E89F7150A45AB00AB1E10 /* Supporting Files */,
 			);
 			path = VoiceNavigation;
@@ -156,6 +191,12 @@
 				149E89FB150A45AB00AB1E10 /* InfoPlist.strings in Resources */,
 				149E8A04150A45AB00AB1E10 /* MainStoryboard_iPhone.storyboard in Resources */,
 				149E8A07150A45AB00AB1E10 /* MainStoryboard_iPad.storyboard in Resources */,
+				1414206B150A979500E5216F /* microphone.png in Resources */,
+				1414206C150A979600E5216F /* microphone@2x.png in Resources */,
+				145CF6C5150AA0C20080E7CB /* Icon.png in Resources */,
+				145CF6C6150AA0C20080E7CB /* Icon@2x.png in Resources */,
+				145CF6CC150AA2320080E7CB /* Default.png in Resources */,
+				145CF6CD150AA2320080E7CB /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +210,7 @@
 				149E89FD150A45AB00AB1E10 /* main.m in Sources */,
 				149E8A01150A45AB00AB1E10 /* VNAppDelegate.m in Sources */,
 				149E8A0A150A45AB00AB1E10 /* VNViewController.m in Sources */,
+				14DD86DF150A7197003098B3 /* VNTextInputView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +249,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -233,7 +275,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -290,6 +332,7 @@
 				149E8A0F150A45AB00AB1E10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
