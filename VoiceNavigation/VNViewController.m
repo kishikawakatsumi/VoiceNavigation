@@ -42,6 +42,10 @@ static const NSTimeInterval VNDictationRepeatInterval = 3.0;
     self.micImageView = nil;
     self.dictationIndicator = nil;
     self.timerView = nil;
+    
+    self.textInputView = nil;
+    self.dictationController = nil;
+    
     [super dealloc];
 }
 
